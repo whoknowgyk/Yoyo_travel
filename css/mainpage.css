@@ -1,0 +1,31 @@
+#fixedimg_canju{
+    position: fixed;
+    top: 150px;
+    left: -50px;
+}
+#fixedimg_canju:hover{
+    position: fixed;
+    top: 150px;
+    left: 0px;
+}
+table{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid black;
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+td, th{
+    border: thin dotted gray;
+    padding: 5px;
+}
+tr:nth-child(even){
+    background-color: red;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+caption{
+    font-style: italic;
+    padding: 8px;
+}
