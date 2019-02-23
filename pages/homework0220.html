@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Homework</title>
+        <title>Homework0220</title>
         <style>
             *{margin: 0;padding: 0;}
             .out{
-                width: 800px;
-                height: 550px;
+                width: 600px;
+                height: 450px;
                 background-color: red;
+                padding: 50px 100px 50px 100px;
             }
             .medium{
                 width: 600px;
@@ -18,22 +19,28 @@
                 width: 120px;
                 height: 100px;
                 background-color: yellow;
-                /* margin: 50px 60px 50px 60px; */
+                margin: 50px 0px 50px 60px;
+                float: left;
+            }
+            .clear{
+                clear: both;
             }
         </style>
     </head>
     <body>
-        <div class="out" style="position: absolute">
-            <div class="medium" style="position:absolute;top:50px;left:100px;">
-                <div class="in" style="position:absolute;top:50px;left:60px;"></div>
-                <div class="in" style="position:absolute;top:50px;left:240px;"></div>
-                <div class="in" style="position:absolute;top:50px;right:60px;"></div>
+        <div class="out">
+            <div class="medium" style="margin-bottom: 50px;">
+                <div class="in">1</div>
+                <div class="in">2</div>
+                <div class="in">3</div>
+                <div class="clear"></div>
             </div>
-            <div class="medium" style="position:absolute;bottom:50px;left:100px;">
-                    <div class="in" style="position:absolute;top:50px;left:60px;"></div>
-                    <div class="in" style="position:absolute;top:50px;left:240px;"></div>
-                    <div class="in" style="position:absolute;top:50px;right:60px;"></div>
-                </div>
+            <div class="medium">
+                <div class="in">4</div>
+                <div class="in">5</div>
+                <div class="in">6</div>
+                <div class="clear"></div>
+            </div>
         </div>
     </body>
 </html>
