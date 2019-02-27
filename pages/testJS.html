@@ -4,14 +4,20 @@
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <title>testJS</title>
     <script type="text/javascript">
-        // var a=[];
-        // for (let i=0;i<10;i++){
-        //     a[i]=function () {
-        //         console.log(i);
-        //     };
-        // }
-        // console.log(a[6]());
-        document.writeln("Hello world!");
+        var sortArrayByParity = function(A) {
+            var B=[];
+            var C=[];
+            for (let i=0;i<A.length;i++){
+                if (A[i]%2===0){
+                    B=B.concat(A[i]);
+                }
+                else {
+                    C=C.concat(A[i]);
+                }
+            }
+            return [...B, ...C];
+        };
+        console.log(sortArrayByParity([5,8,7,3,1]));
     </script>
 </head>
 <body>
