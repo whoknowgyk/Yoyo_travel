@@ -3,72 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>homework0226</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .clear{
-            clear: both;
-        }
-        .nav{
-            margin: auto;
-            width: 1205px;
-        }
-        .header{
-            float: left;
-        }
-        .menu{
-            float: left;
-        }
-        .login{
-            float: left;
-            margin-top: 26px;
-            margin-bottom: 28px;
-        }
-        .logo{
-            float: left;
-            margin: 7px 3px 4px 0;
-        }
-        .website_name{
-            float: left;
-            margin: 17px 164px 14px 0;
-        }
-        .banner{
-        }
-        ul{
-            margin-right: 300px;
-        }
-        li{
-            width: 80px;
-            height: 75px;
-            float: left;
-            margin-right: 22px;
-            list-style: none;
-            text-align: center;
-            line-height: 72px;
-            cursor: pointer;
-        }
-        li:hover{
-            background-color: #5696ff;
-        }
-        .home_button{
-            background-color: #5696ff;
-        }
-        #login_button{
-            float: left;
-            cursor: pointer;
-        }
-        #vertical_line{
-            float: left;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-        #register_button{
-            float: left;
-            cursor: pointer;
-        }
-    </style>
+    <link href="../css/homework0225.css" rel="stylesheet">
 </head>
 <body>
     <!--导航栏：分为header、menu和login三部分-->
@@ -85,7 +20,7 @@
         </div>
         <!--菜单：包含5个按钮 浮动排列-->
         <div class="menu">
-            <ul>
+            <ul class="menu_ul">
                 <li class="home_button">首页</li>
                 <li>地区</li>
                 <li>特惠</li>
@@ -103,8 +38,13 @@
         </div>
         <div class="clear"></div>
     </div>
+    <!--banner：里面包含两个小圆点-->
     <div class="banner">
-        <img alt="banner" src="../img/banner.jpg" style="width: 1920px;">
+        <ul class="dots">
+            <li class="hollow"></li>
+            <li class="solid"></li>
+            <div class="clear"></div>
+        </ul>
     </div>
 </body>
 </html>

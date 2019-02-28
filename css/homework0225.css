@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+.nav{
+    margin: auto;
+    width: 1205px;
+}
+.header{
+    float: left;
+}
+.menu{
+    float: left;
+}
+.login{
+    float: left;
+    margin-top: 26px;
+    margin-bottom: 28px;
+}
+.logo{
+    float: left;
+    margin: 7px 3px 4px 0;
+}
+.website_name{
+    float: left;
+    margin: 17px 164px 14px 0;
+}
+.banner{
+    background: url("../img/banner.jpg") center;
+    height: 600px;
+    position: relative;
+}
+.menu{
+    margin-right: 300px;
+}
+li{
+    list-style: none;
+}
+.menu li{
+    width: 80px;
+    height: 75px;
+    float: left;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 72px;
+    cursor: pointer;
+}
+.menu li:hover{
+    background-color: #5696ff;
+}
+.home_button{
+    background-color: #5696ff;
+}
+#login_button{
+    float: left;
+    cursor: pointer;
+}
+#vertical_line{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#register_button{
+    float: left;
+    cursor: pointer;
+}
+.dots{
+    width: 52px;
+    position: absolute;
+    bottom: 29px;
+    left: 50%;
+}
+.hollow{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: white 1px solid;
+    box-sizing: border-box;
+    float: left;
+}
+.solid{
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 20px;
+    float: left;
+}
