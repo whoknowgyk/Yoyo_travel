@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homework0226</title>
+    <link href="../css/homework.css" rel="stylesheet">
+</head>
+<body>
+    <!--导航栏：分为header、menu和login三部分-->
+    <div class="nav">
+        <!--header：包含两张图片 浮动排列-->
+        <div class="header">
+            <div class="logo">
+                <img alt="logo" src="../img/logo.png">
+            </div>
+            <div class="website_name">
+                <img alt="网站名称" src="../img/website_name.png">
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!--菜单：包含5个按钮 浮动排列-->
+        <div class="menu">
+            <ul class="menu_ul">
+                <li class="home_button">首页</li>
+                <li>地区</li>
+                <li>特惠</li>
+                <li>咨询</li>
+                <li>游记</li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+        <!--login：包含两个按钮一个竖线 浮动排列-->
+        <div class="login">
+            <div id="login_button">登录</div>
+            <div id="vertical_line">|</div>
+            <div id="register_button">注册</div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!--banner：里面包含两个小圆点-->
+    <div class="banner">
+        <ul class="dots">
+            <li class="hollow"></li>
+            <li class="solid"></li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+    <!--搜索框-->
+    <div id="search_bar">
+        <input placeholder="开启你的旅程吧！" type="text" />
+        <img alt="搜索" height="24" src="../img/search_icon.png" width="24">
+    </div>
+    <!--文字：两行-->
+    <div id="text_travel">
+        <div>
+            <img height="7" id="line1_left" src="../img/line2.png" width="79">
+            <div id="text1">地区旅游</div>
+            <img height="7" id="line1_right" src="../img/line1.png" width="79">
+            <div class="clear"></div>
+        </div>
+        <div id="text2">从这开始有意思的地区文化</div>
+    </div>
+    <!--风景展示栏：6张图片浮动-->
+    <div id="image_display">
+        <ul id="image_travel">
+            <li id="pic_sichuan">
+                <div class="shadow"></div>
+                <div class="text_area">四川</div>
+            </li>
+            <li id="pic_dali">
+                <div class="shadow"></div>
+                <div class="text_area">大理</div>
+            </li>
+            <li id="pic_denmark">
+                <div id="shadow_denmark"></div>
+                <div class="text_area">丹麦</div>
+                <img alt="播放" height="76" id="button_play" src="../img/button_play.png" width="76">
+            </li>
+            <li id="pic_japan">
+                <div class="shadow"></div>
+                <div class="text_area">日本</div>
+            </li>
+            <li id="pic_italy">
+                <div class="shadow"></div>
+                <div class="text_area">意大利</div>
+            </li>
+            <li id="pic_france" style="margin-right: 0">
+                <div class="shadow"></div>
+                <div class="text_area">法国</div>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+    <!--More标签-->
+    <div id="button_more">More></div>
+    <!--文字：两行-->
+    <div id="text_route">
+        <!--第一行-->
+        <div>
+            <div id="line2_left"></div>
+            <div id="route_text1">特惠行程</div>
+            <div id="line2_right"></div>
+            <div class="clear"></div>
+        </div>
+        <!--第二行-->
+        <div id="route_text2">给你带来最省钱的旅游</div>
+    </div>
+    <!--行程展示：6张图片-->
+    <div id="pic_route">
+        <!--分成左右两部分,浮动-->
+        <!--左四-->
+        <div id="box_left">
+            <!--分成上下两部分-->
+            <!--上二-->
+            <div id="box_top">
+                <!--浮动-->
+                <div id="route_pic_denmark">
+                    <div id="route_denmark_text">丹麦5晚6日童话之旅</div>
+                </div>
+                <div id="route_pic_vietnam">
+                    <div id="border_vietnam"></div>
+                    <div id="route_vietnam_text">越南2晚3天美妙之旅</div>
+                    <div id="route_vietnam_text2">
+                        <div id="line3_left"></div>
+                        <div id="text_route_money">¥2300</div>
+                        <div id="line3_right"></div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--下二-->
+            <div id="box_bottom">
+                <!--浮动-->
+                <div id="route_pic_thailand">
+                    <div id="route_thailand_text">泰国曼谷5晚6日游</div>
+                </div>
+                <div id="route_pic_malaysia">
+                    <div id="route_malaysia_text">马来西亚4晚6日经典游</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--右二-->
+        <div id="box_right">
+            <div id="route_pic_japan">
+                <div id="route_japan_text">日本5晚6日全景游</div>
+            </div>
+            <div id="route_pic_india">
+                <div id="route_india_text">印度4晚6日经典游</div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!--More标签：全蓝-->
+    <div id="button_more2">More></div>
+</body>
+</html>

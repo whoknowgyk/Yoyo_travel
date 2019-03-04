@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+.nav{
+    margin: auto;
+    width: 1205px;
+}
+.header{
+    float: left;
+}
+.menu{
+    float: left;
+}
+.login{
+    float: left;
+    margin-top: 26px;
+    margin-bottom: 28px;
+}
+.logo{
+    float: left;
+    margin: 7px 3px 4px 0;
+}
+.website_name{
+    float: left;
+    margin: 17px 164px 14px 0;
+}
+.banner{
+    background: url("../img/banner.jpg") center;
+    height: 600px;
+    position: relative;
+}
+.menu{
+    margin-right: 300px;
+}
+li{
+    list-style: none;
+}
+.menu li{
+    width: 80px;
+    height: 75px;
+    float: left;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 72px;
+    cursor: pointer;
+}
+.menu li:hover{
+    background-color: #5696ff;
+    color: #fefeff;
+}
+.home_button{
+    background-color: #5696ff;
+    color: #fefeff;
+}
+#login_button{
+    float: left;
+    cursor: pointer;
+}
+#vertical_line{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#register_button{
+    float: left;
+    cursor: pointer;
+}
+.dots{
+    width: 52px;
+    position: absolute;
+    bottom: 29px;
+    left: 50%;
+    margin-left: -26px;
+}
+.hollow{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: white 1px solid;
+    box-sizing: border-box;
+    float: left;
+}
+.solid{
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 20px;
+    float: left;
+}
+#search_bar {
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 361px;
+    position: relative;
+}
+#search_bar input{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    padding-left: 11px;
+}
+#search_bar img{
+    top: 8px;
+    position: absolute;
+    right: 14px;
+
+}
+input::-webkit-input-placeholder {
+    color: #999999;
+}
+#text_travel{
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 328px;
+}
+#text_travel #line1_left{
+    float: left;
+    margin-top: 22px;
+}
+#text_travel #text1{
+    float: left;
+    font-size: 36px;
+    color: #5696ff;
+    margin-left: 14px;
+    margin-right: 11px;
+}
+#text_travel #line1_right{
+    float: left;
+    margin-top: 22px;
+}
+#text_travel #text2{
+    margin-right: auto;
+    margin-left: auto;
+    color: #666666;
+    width: 264px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+#image_display{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+    width: 1200px;
+}
+#image_display #image_travel li{
+    float: left;
+    margin-right: 2px;
+}
+#image_display #pic_france{
+    margin-right: 0;
+}
+#image_travel{
+    position: relative;
+}
+#image_display .shadow{
+    /*opacity: 0.5;*/
+    /*background: #333333;*/
+    background: rgba(51,51,51,0.5);
+}
+#pic_sichuan{
+    position: relative;
+    width: 119px;
+    height: 373px;
+    background: url("../img/sichuan.jpg");
+}
+#image_travel .shadow{
+    width: 119px;
+    height: 373px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#shadow_denmark{
+    width: 596px;
+    height: 373px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(51,51,51,0.5);
+}
+.text_area{
+    position: absolute;
+    top:70px;
+    left: 32px;
+    font-size: 28px;
+    color: #fbfcfd;
+    width: 28px;
+    line-height: 28px;
+}
+#pic_dali{
+    position: relative;
+    width: 119px;
+    height: 373px;
+    background: url("../img/dali.jpg");
+}
+#pic_denmark{
+    position: relative;
+    width: 596px;
+    height: 373px;
+    background: url("../img/denmark.jpg");
+}
+#pic_japan{
+    position: relative;
+    width: 119px;
+    height: 373px;
+    background: url("../img/japan.jpg");
+}
+#pic_italy{
+    position: relative;
+    width: 118px;
+    height: 373px;
+    background: url("../img/italy.jpg");
+}
+#pic_france{
+    position: relative;
+    width: 119px;
+    height: 373px;
+    background: url("../img/france.jpg");
+}
+#button_play{
+    position: absolute;
+    top: 146px;
+    right: 260px;
+}
+#button_more{
+    width: 160px;
+    height: 54px;
+    border-radius: 5px;
+    color: #5696ff;
+    border: #5696ff 2px solid;
+    margin-top: 72px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    line-height: 54px;
+    font-size: 26px;
+    box-sizing: border-box;
+}
+#text_route{
+    margin-top: 102px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 328px;
+}
+#text_route #line2_left{
+    float: left;
+    width: 78px;
+    height: 6px;
+    background-color: #666666;
+    margin-right: 13px;
+    margin-top: 20px;
+}
+#text_route #line2_right{
+    float: left;
+    width: 78px;
+    height: 6px;
+    background-color: #666666;
+    margin-left: 11px;
+    margin-top: 22px;
+}
+#text_route #route_text1{
+    float: left;
+    font-size: 36px;
+    color: #5696ff;
+}
+#text_route #route_text2{
+    margin-right: auto;
+    margin-left: auto;
+    color: #666666;
+    width: 220px;
+    font-size: 22px;
+    margin-top: 14px;
+}
+#pic_route{
+    width: 1200px;
+    margin-top: 52px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#box_left{
+    width: 891px;
+    height: 684px;
+    margin-right: 8px;
+    float: left;
+}
+#box_right{
+    width: 300px;
+    height: 684px;
+    float: left;
+}
+#box_top{
+    width: 892px;
+    height: 307px;
+}
+#box_bottom{
+    width: 892px;
+    height: 369px;
+    margin-top: 8px;
+}
+#route_pic_denmark{
+    background: url("../img/route_denmark.jpg") no-repeat center;
+    width: 441px;
+    height: 307px;
+    float: left;
+    margin-right: 8px;
+    position: relative;
+}
+#route_pic_vietnam{
+    position: relative;
+    background: url("../img/route_vietnam.jpg") no-repeat center;
+    width: 442px;
+    height: 307px;
+    float: left;
+}
+#route_pic_thailand{
+    position: relative;
+    background: url("../img/route_thailand.jpg") no-repeat center;
+    width: 362px;
+    height: 369px;
+    float: left;
+    margin-right: 8px;
+}
+#route_pic_malaysia{
+    position: relative;
+    background: url("../img/route_malaysia.jpg") no-repeat center;
+    width: 521px;
+    height: 369px;
+    float: left;
+}
+#route_pic_japan{
+    position: relative;
+    background: url("../img/route_japan.jpg") no-repeat center;
+    width: 300px;
+    height: 472px;
+    margin-bottom: 8px;
+}
+#route_pic_india{
+    position: relative;
+    background: url("../img/route_india.jpg") no-repeat center;
+    width: 300px;
+    height: 204px;
+}
+#route_denmark_text{
+    position: absolute;
+    left: 55px;
+    top: 49px;
+    font-size: 22px;
+    color: #ffffff;
+}
+#route_thailand_text_text{
+    position: absolute;
+    left: 55px;
+    top: 46px;
+    font-size: 22px;
+    color: #ffffff;
+}
+#route_malaysia_text{
+    position: absolute;
+    left: 55px;
+    top: 46px;
+    font-size: 22px;
+    color: #ffffff;
+}
+#route_india_text{
+    position: absolute;
+    left: 54px;
+    top: 46px;
+    font-size: 22px;
+    color: #ffffff;
+}
+#route_japan_text{
+    position: absolute;
+    left: 54px;
+    top: 48px;
+    font-size: 22px;
+    color: #ffffff;
+}
+#border_vietnam{
+    position: absolute;
+    top: 21px;
+    left: 22px;
+    width: 400px;
+    height: 266px;
+    border: #ffffff 4px solid;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.2);
+}
+#route_vietnam_text{
+    position: absolute;
+    left: 56px;
+    top: 48px;
+    font-size: 22px;
+    color: #ffffff;
+}
+#route_vietnam_text2{
+    position: absolute;
+    top: 104px;
+    left: 65px;
+    width: 314px;
+    height: 37px;
+}
+#line3_left{
+    width: 90px;
+    height: 4px;
+    background-color: #ffffff;
+    border: #ffffff 1px solid;
+    box-sizing: border-box;
+    margin-top: 16px;
+    float: left;
+    margin-right: 28px;
+}
+#line3_right{
+    float: left;
+    width: 90px;
+    height: 4px;
+    background-color: #ffffff;
+    border: #ffffff 1px solid;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-left: 25px;
+}
+#text_route_money{
+    float: left;
+    font-size: 26px;
+    color: #ffffff;
+}
+#button_more2{
+    width: 160px;
+    height: 54px;
+    border-radius: 5px;
+    background-color: #5696ff;
+    color: #fefefe;
+    border: #ffffff 1px solid;
+    margin-top: 72px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    line-height: 54px;
+    font-size: 26px;
+    box-sizing: border-box;
+}
+
+
+
